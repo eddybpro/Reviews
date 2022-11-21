@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+header .heading{
+    font-size: 2.5rem;
+    color: rgb(1, 1, 43);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+}
+
+header .heading span{
+    color: rgb(2, 104, 145);
+}
+
+main{
+    background-color: #fff;
+    text-align: center;
+    padding:1rem 2rem;
+    border-radius: .5rem;
+    max-width: 500px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+main .user .image .user-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 13px -8px 5px 0px rgba(58,33,207,0.75);
+    margin-bottom: .5rem;
+} 
+
+main .user .info .title{
+    font-size: 1.8rem;
+    margin-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+main .user .info span{
+    display: block;
+    color: blue;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+main .comment p{
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+main .btns{
+    margin-top: 1rem;
+}
+
+main .btns i{
+    font-size: 1.5rem;
+    color: #222;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+main .btns i:hover{
+    transform: scale(1.3);
+}
+
+main .btns .btn{
+    background-color: #fff;
+    color: #222;
+    border: 2px solid #222;
+    padding: .5rem 1.2rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .2s linear;
+    outline: none;
+}
+
+main .btns .btn:hover{
+    color: #fff;
+    background-color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
